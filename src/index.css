@@ -1,0 +1,73 @@
+/* Icon size controls */
+.icon-small {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon-medium {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon-large {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Make all SVGs responsive by default */
+svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Specific icon controls */
+.contact-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.social-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Header Styles */
+header {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  nav > div:last-child {
+    display: none !important;
+  }
+  
+  /* Add mobile menu button styles if needed */
+}
+
+/* About Section Enhancements */
+.about-content {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.info-card {
+  cursor: pointer;
+}
+
+/* Smooth transitions for all interactive elements */
+.info-card, 
+.info-card > div {
+  transition: all 0.3s ease;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+  .about-content > div:last-child {
+    grid-template-columns: 1fr !important;
+  }
+}
